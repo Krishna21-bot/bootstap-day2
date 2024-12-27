@@ -1,0 +1,37 @@
+.position-fixed {
+    background-color: wheat;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.position-relative {
+    background-color: antiquewhite;
+    padding: 10px;
+    position: relative;
+    left: 0px;
+}
+
+.position-absolute {
+    background-color: pink;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.relative-container {
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    position: relative;
+}
+
+.absolute-container {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+}
